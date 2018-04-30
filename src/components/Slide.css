@@ -1,0 +1,20 @@
+.slide-container{
+	display: flex;
+	flex-direction: row;
+	flex-basis: 100%;
+	flex-grow: 0;
+	flex-shrink: 0;
+	opacity: 0;
+	border: 1px solid grey;
+}
+.slide-image{
+	display: block;
+	flex: 1 1 50%;
+	overflow: hidden;
+}
+.slide-words{
+	flex: 1 1 50%;
+}
+.slide-container:nth-child(1){
+	opacity: 1;
+}

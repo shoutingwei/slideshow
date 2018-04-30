@@ -1,0 +1,12 @@
+.container{
+	display: flex;
+	justify-content: center;
+}
+
+.slide-show-container{
+	display: flex;
+	justify-content: start;
+	flex-wrap: nowrap;
+	overflow: visible;
+	width: 80%;
+}
